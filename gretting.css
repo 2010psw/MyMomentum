@@ -1,0 +1,33 @@
+@keyframes helloText{
+    0%{
+        top: 10%;
+        color: white;
+    }25%{
+        top: 13%;
+        color: black;
+    }50%{
+        top: 10%;
+        color: white;
+    }75%{
+        top: 13%;
+        color: black;
+    }100%{
+        top: 10%;
+        color: white;
+    }
+}
+
+.js-greetings.greetings.showing {
+    position: fixed;
+    top: 10%;
+    margin-left: 80%;
+    font-size: 10px;
+    animation: helloText 3s infinite;
+}
+.js-form{
+    
+    position: fixed;
+    left: 50%;
+    margin-left: -62px;
+    top: 15%;
+}

@@ -1,0 +1,21 @@
+.js-toDoForm{
+    position: fixed;
+    top: 30%;
+    left : 50%;
+    margin-left: -80px;
+}
+/* @keyframes bling{
+    from{
+        color: red;
+    }to{
+        color: blue;
+    }
+} */
+.js-toDoForm input::placeholder{
+    
+}
+
+.js-toDoList{
+    position: fixed;
+    margin-top: 20%;
+}

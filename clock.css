@@ -1,0 +1,23 @@
+@keyframes tictok{
+    0%{
+        color : yellow;
+    }30%{
+        color : purple;
+    }60%{
+        color : blue;
+    }100%{
+        color : yellow;
+    }
+}
+
+
+.js-clock {
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    margin-left: -62px;
+}
+
+.clock_text{
+    animation : tictok 5s infinite;
+}
